@@ -3,10 +3,6 @@
 RxMediaPicker is a RxSwift wrapper built around UIImagePickerController consisting in a simple interface for common actions like picking photos or videos stored on the device, recording a video or taking a photo.
 
 ![Swift](https://img.shields.io/badge/Swift-5-orange.svg)
-[![Version](https://img.shields.io/cocoapods/v/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
-[![License](https://img.shields.io/cocoapods/l/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
-[![Platform](https://img.shields.io/cocoapods/p/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 If you ever used UIImagePickerController you know how it can become quite verbose and introduce some unnecessary complexity, as you use the same class to do everything, from picking photos or videos from the library, recording videos, etc. At the same time, you have all these different properties and methods which can be used when you are dealing with photos, others for when you're dealing with videos, and others in all cases.
 
