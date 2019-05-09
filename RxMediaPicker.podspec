@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/RxSwiftCommunity/RxMediaPicker"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Rui Costa" => "rui.pfcosta@gmail.com", "Shai Mishali" => "freak4pc@gmail.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "10.3"
   s.source       = { :git => 'https://github.com/RxSwiftCommunity/RxMediaPicker.git', :tag => s.version }
   s.source_files = "RxMediaPicker/*.swift"
   s.requires_arc = true
-  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxSwift', '~> 5.0'
 end
