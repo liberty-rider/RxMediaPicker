@@ -2,7 +2,7 @@
 
 RxMediaPicker is a RxSwift wrapper built around UIImagePickerController consisting in a simple interface for common actions like picking photos or videos stored on the device, recording a video or taking a photo.
 
-![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
 [![License](https://img.shields.io/cocoapods/l/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
 [![Platform](https://img.shields.io/cocoapods/p/RxMediaPicker.svg?style=flat)](http://cocoapods.org/pods/RxMediaPicker)
@@ -97,55 +97,6 @@ To be able to use RxMediaPicker you will need to adopt the protocol RxMediaPicke
 
 ## Requirements
 
-* iOS 8.0+
-* Xcode 7.0+
+* iOS 10.3+
+* Xcode 10.2+
 
-## Instalation
-
-### CocoaPods
-
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate RxMediaPicker into your Xcode project using CocoaPods, include this in your Podfile:
-
-```ruby
-platform :ios, '8.0'
-use_frameworks!
-
-pod 'RxMediaPicker'
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate RxMediaPicker into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "RxSwiftCommunity/RxMediaPicker" "master"
-```
-
-Run `carthage` to build the framework and drag the built `RxMediaPicker.framework` into your Xcode project.
-
-## Credits
-
-Owned and maintained by Rui Costa ([@ruipfcosta](https://twitter.com/ruipfcosta)). 
-
-## Contributing
-
-Bug reports and pull requests are welcome.
-
-## License
-
-RxMediaPicker is released under the MIT license. See LICENSE for details.
